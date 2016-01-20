@@ -3,7 +3,7 @@ package com.study.designpattern.facade;
 /**
  * @author huqiaonan
  * @date 2016年1月20日 下午12:00:42 外观模式，为子系统中的一组接口提供一个一致的界面，此模式定义了一个高层接口，
- *       这个接口使得这一子系统更加容易使用。
+ *       这个接口使得这一子系统更加容易使用。各种股票的交易等于子系统，基金相当于界面来管理这个系统。
  */
 public class Fund {
 
