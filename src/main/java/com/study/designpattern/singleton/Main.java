@@ -4,6 +4,8 @@ import static org.testng.Assert.assertEquals;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
 
 /**
  * @author huqiaonan
@@ -20,6 +22,12 @@ public class Main {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+
+	public void test() {
+		BlockingQueue<String> bq = new ArrayBlockingQueue<String>(100);
+		
+//		ArrayBlockingQueue<String> bq = ArrayBlockingQueue<String>(100);
 	}
 
 	public void test1() {
