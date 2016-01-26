@@ -12,4 +12,16 @@ public class BrandMi extends Brand {
 		game.run();
 	}
 
+	public BrandMi() {
+		super();
+	}
+
+	public BrandMi(String name) {
+		super(name);
+	}
+
+	public BrandMi(Game game) {
+		super(game);
+	}
+
 }

@@ -7,9 +7,20 @@ package com.study.designpattern.bridge;
 public class Main {
 
 	public static void main(String[] args) {
-		test1();
+//		test1();
+		test2();
 	}
 
+	public static void test2()
+	{
+		Brand b1 = new BrandIPone(new GameBall());
+		Brand b2 = new BrandMi(new GameBall());
+		People young = new Children(b1);
+		People old = new Older(b2);
+		young.run();
+		old.run();
+		
+	}
 	public static void test1() {
 		GameBall gb = new GameBall();
 		GameWeather gw = new GameWeather();

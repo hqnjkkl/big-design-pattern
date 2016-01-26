@@ -21,6 +21,11 @@ public abstract class Brand {
 		this.name = name;
 	}
 
+	public Brand(Game game) {
+		super();
+		this.game = game;
+	}
+
 	public Game getGame() {
 		return game;
 	}
