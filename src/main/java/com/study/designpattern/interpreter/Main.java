@@ -32,6 +32,7 @@ public class Main {
 		com.study.designpattern.interpreter.Main.InerClass.IIC iic = ic.new IIC();
 		System.out.println(iic.b);
 		System.out.println(ic.a);
+//		java.util.Arrays.binarySearch ;
 	}
 
 	public static void main(String[] args) {
